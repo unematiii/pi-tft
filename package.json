@@ -1,0 +1,21 @@
+{
+  "name": "pi-tft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/pitft.js",
+  "scripts": {
+    "build": "node-gyp build",
+    "configure": "node-gyp configure",
+    "clean": "node-gyp clean",
+    "test": "node test/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-gyp": "^8.1.0"
+  },
+  "dependencies": {
+    "bindings": "^1.5.0"
+  },
+  "gypfile": true
+}
